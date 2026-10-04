@@ -64,7 +64,7 @@ CPU Sim simulates a **microprogrammed control unit**, where each machine instruc
 
 ### Screenshot
 
-> **[Insert Screenshot Here – New Machine window]**
+<img width="1117" height="642" alt="Screenshot 2026-10-04 201552" src="https://github.com/user-attachments/assets/3dfe3065-1455-4d27-8f01-a08087ffc3df" />
 
 <br><br><br>
 
@@ -91,7 +91,8 @@ Create the following registers with initial value `0`:
 
 ### Screenshot
 
-> **[Insert Screenshot Here – Eight registers in Hardware Modules]**
+<img width="482" height="230" alt="Screenshot 2026-10-04 201711" src="https://github.com/user-attachments/assets/e7a49a9a-66f2-4c62-a56d-40ceb4b8adac" />
+
 
 <br><br><br>
 
@@ -116,11 +117,13 @@ Click **OK** to save the hardware.
 
 ### Screenshot
 
-> **[Insert Screenshot Here – Condition bits]**
+<img width="475" height="123" alt="Screenshot 2026-10-04 201802" src="https://github.com/user-attachments/assets/c83f2614-a604-4e91-a68f-615b7e8362a8" />
+
 
 <br><br><br>
 
-> **[Insert Screenshot Here – RAM M]**
+<img width="478" height="142" alt="Screenshot 2026-10-04 201814" src="https://github.com/user-attachments/assets/6c62f768-9278-4597-a99a-98c0331f12cf" />
+
 
 <br><br><br>
 
@@ -146,6 +149,8 @@ Open:
 | E->AC(0) | E | 0 | AC | 15 | 1 |
 | TMP->E | TMP | 0 | E | 0 | 1 |
 
+<img width="562" height="302" alt="Screenshot 2026-10-04 201838" src="https://github.com/user-attachments/assets/776786df-4ac3-4925-99f2-1f6c7c68e39b" />
+
 ### MemoryAccess
 
 | Name | Direction | Memory | Data | Address |
@@ -155,6 +160,8 @@ Open:
 | AC->M[AR] | write | M | AC | AR |
 | DR->M[AR] | write | M | DR | AR |
 
+<img width="557" height="173" alt="Screenshot 2026-10-04 201919" src="https://github.com/user-attachments/assets/9144dace-a63a-4f07-82fe-1623f3194d74" />
+
 ### Increment
 
 | Name | Register | Delta |
@@ -163,11 +170,14 @@ Open:
 | DR+1->DR | DR | 1 |
 | AC+1->AC | AC | 1 |
 
+<img width="556" height="162" alt="Screenshot 2026-10-04 201937" src="https://github.com/user-attachments/assets/a842312c-31e8-43df-aec0-ea474da1089d" />
+
 ### Arithmetic
 
 | Name | Type | Source 1 | Source 2 | Destination | Carry Bit |
 |---|---|---|---|---|---|
 | AC+DR->AC,E | ADD | AC | DR | AC | carry-E |
+
 
 ### Logical
 
@@ -224,7 +234,8 @@ Click **OK** after entering all microinstructions.
 
 ### Screenshot
 
-> **[Insert Screenshot Here – Microinstructions window]**
+<img width="557" height="178" alt="Screenshot 2026-10-04 202250" src="https://github.com/user-attachments/assets/37030d01-eb8c-4858-8846-39809daaad64" />
+
 
 <br><br><br>
 
@@ -248,7 +259,9 @@ Click **OK**.
 
 ### Screenshot
 
-> **[Insert Screenshot Here – Edit Fields window]**
+<img width="590" height="268" alt="WhatsApp Image 2026-10-04 at 8 39 13 PM" src="https://github.com/user-attachments/assets/5fa0159b-bccf-404f-bdcd-720a299a35e8" />
+
+
 
 <br><br><br>
 
